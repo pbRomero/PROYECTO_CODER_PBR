@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LIBRERÍA FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- LIBRERÍA BTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/favicon-32x32.png" type="image/x-icon">
+    <title>JM Gráfica</title>
+</head>
+<body id="body">
+
+<!-- Estructur 1 = Header/Nav-->
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 end-0">
+            <div class="container-fluid">
+                <img src="images/logo-removebg-preview.png" alt="" class="navbar-brand position-fixed top-0 start-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/impresion.html">Impresión</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Estructur 2 = Main-->
+
+    <main id="main">
+        <section class="main__recursos">
+            <img class="main__recursos--items items__img" src="images/logo-removebg-preview.png" alt="logo de JM Gráfica SRL">
+            <video controls muted class="main__recursos--items items__video" src="video/inicio_intro.mp4">El navegador no soporta el video</video>
+        </section>
+        <section class="main__intro">
+            <h1 class="main__intro--titulo">Bienvenidos a JM Gráfica S.R.L.</h1>
+            <p class="main__intro--texto">
+                En <strong>JM Gráfica S.R.L.</strong> nos especializamos en brindar soluciones de impresión de <strong>alta calidad</strong> a través de nuestras tecnologías de impresión en seco (offset) y digital. Con más de 15 años de trayectoria en el sector, nos hemos consolidado como un referente en la industria gráfica, ofreciendo productos que combinan precisión, durabilidad y diseño a medida. <br><br>Nuestro <strong>compromiso</strong> con la excelencia se refleja en cada proyecto que realizamos, ya sea desde tarjetas personales y folletos publicitarios hasta catálogos y piezas gráficas complejas. Nos adaptamos a las necesidades de cada cliente para entregar resultados que superen sus expectativas. <br><br>Con un enfoque en la innovación y el cuidado del medio ambiente, en <strong>JM Gráfica S.R.L.</strong> trabajamos con materiales y procesos que garantizan un impacto ambiental reducido, sin sacrificar la calidad de impresión que nos caracteriza. <br><br>¡Descubre cómo podemos darle vida a tus ideas con nuestros servicios de impresión profesional!
+            </p>
+        </section>
+    </main>
+
+<!-- Estructura 3 = Footer-->
+
+    <footer id="footer">
+        <section class="footer_copy">
+            <p>©Todos los derechos reservados a JM Gráfica SRL</p>
+        </section>
+        <section class="footer__horario">
+            <div>
+                <i class="fa-solid fa-clock"></i>
+            </div>
+            <p class="footer__horario--texto">Horarios: Lunes a Viernes <br>09:30 a 13:00</p>
+        </section>
+
+<!-- Utilizo el atributo "rel" para evitar que las paginas sean redireccionadas (por precaución para el usuario)-->
+<!-- Utilizo el atributo "target" para abrir una pestaña adicional y evitar perder la audiencia-->
+
+        <section class="footer_links">
+            <a href="tel:+5492964431754" class="footer__links--icons" title="telefono fijo: +54 9 2964431754">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://w.app/Fx5MPE" class="footer__links--icons" target="_blank" rel="noopener">
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </a>
+            <a href="mailto:jmgraficasrl@gmail.com" class="footer__links--icons" target="_blank" rel="noopener">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="#" class="footer__links--icons" title="página no disponible aún">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/JmGraficaSrl" class="footer__links--icons" target="_blank" rel="noopener">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

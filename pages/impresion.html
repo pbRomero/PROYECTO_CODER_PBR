@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LIBRERÍA FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- LIBRERÍA BTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../icons/favicon-32x32.png" type="image/x-icon">
+    <title>JM Gráfica</title>
+</head>
+<body id="body">
+
+<!-- Estructur 1 = Header/Nav-->
+
+<header id="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 end-0">
+        <div class="container-fluid">
+            <img src="../images/logo-removebg-preview.png" alt="" class="navbar-brand position-fixed top-0 start-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Impresión</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="../pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Estructur 2 = Main-->
+
+    <main id="main">
+        <h1 class="title__impresion">Impresión Offset vs. Impresión Digital: ¿Cuál es la mejor opción para tu proyecto?</h1>
+        <p>En JM Gráfica S.R.L. ofrecemos ambas tecnologías de impresión: offset y digital, para brindar soluciones a medida según las necesidades de cada cliente. A continuación, te explicamos las diferencias, ventajas y aplicaciones de cada una, para que puedas elegir la opción ideal para tu proyecto.</p>
+        <div class="card__main">
+                <section class="card__main--impresion">
+                    <div class="contenedor__superior">
+                        <h2 class="title__impresion--second">Offset</h2>
+                        <picture><img src="../images/impresion_offset.png" alt="" class="img__offset"></picture>
+                    </div>
+                    <p>La impresión offset es un método tradicional que utiliza planchas y rodillos para transferir la tinta al papel. Es ideal para grandes tiradas y trabajos que requieren una calidad de color superior.</p>
+                    <h3 class="subtitulo__impresion">Ventajas</h3>
+                    <ul>
+                        <li>Calidad de impresión: Colores más nítidos y precisos, especialmente en tonos planos y degradados.</li>
+                        <li>Costos por volumen: A medida que aumenta la cantidad de impresiones, el costo por unidad disminuye significativamente.</li>
+                        <li>Variedad de soportes: Se puede imprimir sobre una amplia gama de papeles y materiales especiales.</li>
+                    </ul>
+                    <h3 class="subtitulo__impresion">Desventajas</h3>
+                    <ul>
+                        <li>Tiempo de preparación: Requiere un proceso inicial de preprensa y elaboración de planchas, lo que puede aumentar el tiempo de entrega</li>
+                        <li>Costos iniciales elevados: No es la opción más rentable para tiradas pequeñas, debido a los costos de preparación.</li>
+                    </ul>
+                    <p>Aplicaciones típicas: Revistas, catálogos, folletos, papelería corporativa y todo tipo de impresos en grandes volúmenes.</p>
+                </section>
+            <section class="card__main--impresion">
+                <div class="contenedor__superior">
+                    <h2 class="second__title--impresion">Digital</h2>
+                    <picture><img src="../images/impresion_digital.png" alt="" class="img_digital"></picture>
+                </div>
+                <p>La impresión digital es una alternativa moderna que no requiere planchas y se realiza directamente desde archivos digitales, lo que permite mayor flexibilidad y rapidez.</p>
+                <h3 class="subtitulo__impresion">Ventajas</h3>
+                <ul>
+                    <li>Velocidad y flexibilidad: Ideal para tiradas cortas y trabajos urgentes. Permite realizar cambios sobre la marcha.</li>
+                    <li>Personalización: Posibilidad de imprimir piezas personalizadas, como numeración variable, códigos QR y más.</li>
+                    <li>Menor cantidad mínima: Perfecto para pruebas de color y pequeñas cantidades, sin comprometer la calidad.</li>
+                </ul>
+                <h3 class="subtitulo__impresion">Desventajas</h3>
+                <ul>
+                    <li>Costo unitario: A diferencia del offset, el costo por unidad se mantiene constante independientemente de la cantidad</li>
+                    <li>Limitaciones en algunos soportes: Puede no ser compatible con ciertos papeles y acabados especiales.</li>
+                </ul>
+                <p>Aplicaciones típicas: Tarjetas personales, folletos en tiradas cortas, invitaciones, etiquetas personalizadas y materiales promocionales de bajo volumen.</p>
+            </section>
+        </div>
+        <h2 class="impresión__conclusión second__title--impresion">¿Cuál elegir?</h2>
+        <p>En JM Gráfica S.R.L. te asesoramos para encontrar la opción de impresión que mejor se adapte a tus objetivos y presupuesto. Contamos con equipos y profesionales capacitados para llevar a cabo cualquier proyecto, desde la primera idea hasta la entrega final. ¡Contactanos y descubrí cómo nuestras soluciones de impresión pueden dar vida a tus ideas!</p>
+    </main>
+
+<!-- Estructura 3 = Footer-->
+
+    <footer id="footer">
+        <section class="footer_copy">
+            <p>©Todos los derechos reservados a JM Gráfica SRL</p>
+        </section>
+        <section class="footer__horario">
+            <div>
+                <i class="fa-solid fa-clock"></i>
+            </div>
+            <p class="footer__horario--texto">Horarios: Lunes a Viernes <br>09:30 a 13:00</p>
+        </section>
+
+<!-- Utilizo el atributo "rel" para evitar que las paginas sean redireccionadas (por precaución para el usuario)-->
+<!-- Utilizo el atributo "target" para abrir una pestaña adicional y evitar perder la audiencia-->
+
+        <section class="footer_links">
+            <a href="tel:+5492964431754" class="footer__links--icons" title="telefono fijo: +54 9 2964431754">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://w.app/Fx5MPE" class="footer__links--icons" target="_blank" rel="noopener">
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </a>
+            <a href="mailto:jmgraficasrl@gmail.com" class="footer__links--icons" target="_blank" rel="noopener">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="#" class="footer__links--icons" title="página no disponible aún">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/JmGraficaSrl" class="footer__links--icons" target="_blank" rel="noopener">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
