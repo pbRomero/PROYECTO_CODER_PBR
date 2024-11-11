@@ -1,0 +1,23 @@
+
+/*      MAIN - PAGE NOSOTROS       */
+
+.nosotros__title{
+    font-size: 2rem;
+    font-family: sans-serif, verdana;
+    margin: 3rem 0;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros__img{
+    width: 40rem;
+}
+
+.nosotros__picture{
+    display: flex;
+    justify-content: center;
+}

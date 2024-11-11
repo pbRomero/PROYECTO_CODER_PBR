@@ -1,0 +1,58 @@
+/*      MAIN - PAGE IMPRESION        */
+
+.title__impresion{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+.card__main{
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content:space-around;
+    gap: 1rem;
+}
+
+
+.card__main--impresion{
+    width: 55rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif, verdana;
+    border-left: 3px solid black;
+}
+
+
+.img__offset, 
+.img_digital{
+    width: 20rem;
+    height: 12rem;
+}
+
+.contenedor__superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.contenedor__superior > h2{
+    padding-left: 3rem;
+    font-size: 3.5rem;
+}
+
+.subtitulo__impresion{
+    padding: 10px 0;
+}
+
+.impresión__conclusión{
+    color: #333333;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: sans-serif, verdana;
+}

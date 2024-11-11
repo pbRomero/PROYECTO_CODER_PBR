@@ -1,0 +1,43 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 5rem;
+    border-top: 2px solid black;
+}
+
+
+/*           FOOTER         */
+
+.footer_copy{
+    font-size: 0.5rem;
+    font-style: italic;
+}
+
+.footer__horario{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__horario--texto{
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: sans-serif, Verdana;
+}
+
+.footer_links{
+    display: flex;
+    gap: 20px;
+}
+
+.fa-clock,
+.footer__links--icons{
+    font-size: 2rem;
+    color: #1E3A8A;
+}
+
+.footer__links--icons:hover {
+color:#FF6B35;
+}

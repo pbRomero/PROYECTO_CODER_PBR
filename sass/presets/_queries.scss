@@ -1,0 +1,223 @@
+
+/*********************           MEDIA QUERIES         *********************/
+/*      Breakpoints "hasta"-->     Movil (small): 576px  ||  Tablet (medium): 768px    ||   desktop (extra large): 1400px     */
+
+/* Queda pendiente parametrizar el media queries de la page "contacto" */
+
+/*********************           MEDIUM         *********************/
+
+@media screen and (max-width: 768px) {
+
+    /*      Principales    */
+    
+        #body{
+            max-width: 768px;
+            margin-left: 1%;
+        }
+        #footer{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        p, li{
+            font-size: 15px;
+        }
+    
+    /*      Main - Inicio    */
+    
+        .items__img{
+            margin-right: 10px;
+            width: auto;
+        }
+        .items_video{
+            width: 150px;
+            height: 200px;
+        }
+        .main__intro--texto{
+            margin-left: 0rem;
+        }
+        .main__intro--titulo{
+            margin:1rem 0 0 0;
+        }
+    
+    /*      Main - Impresión    */
+    
+        .card__main{
+            flex-direction: column;
+        }
+        .title__impresion{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .title__impresion--second{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .subtitulo__impresion{
+            font-size: 16px;
+        }
+        .img__offset, 
+        .img_digital{
+            width: 10rem;
+            height: 5rem;
+        }
+        .card__main--impresion{
+            width: auto;
+        }
+        .contenedor__superior > h2{
+            padding-left: 3rem;
+            font-size: 18px;
+        }
+    
+    /*      Main - Impresión    */
+    
+        .section__grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-areas: 
+            "producto1   producto1"
+            "img1        img2"
+            "img3        img4"
+            "img5        img6"
+            ;
+            gap: 1.5rem;
+        }
+    
+        .grid__product{
+            width: 50px;
+        }
+    
+    /*      Main - Nosotros    */
+        .nosotros__texto{
+            flex-direction: column;
+        }
+
+        /*      Main - Contacto   */
+        .main__contacto--map,
+        .section__formulario{
+            width: 100%;
+        }
+
+        .contacto{
+            flex-direction: column;
+            width: 700px;
+        }
+    }
+
+    /*********************           SMALL         *********************/
+    
+    @media screen and (max-width:576px) {
+    
+    /*      Principales    */
+        #body{
+            max-width: 576px;
+            margin-left: 1%;
+        }
+
+        #footer{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        p, li{
+            font-size: 15px;
+        }
+    
+        h1, h2{
+            font-weight: bold;
+        }
+    
+    /*      Main - Inicio    */
+    
+        .items__img{
+            margin-right: 10px;
+        }
+
+        .items__video{
+            width: 400px;
+            height: 400px;
+        }
+
+        .main__intro--texto{
+            margin-left: 0rem;
+        }
+
+        .main__intro--titulo{
+            margin:1rem 0 0 0;
+        }
+    
+    /*      Main - Impresión    */
+    
+        .card__main{
+            flex-direction: column;
+        }
+
+        .title__impresion{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .title__impresion--second{
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .subtitulo__impresion{
+            font-size: 16px;
+        }
+
+        .img__offset, 
+        .img_digital{
+            width: 10rem;
+            height: 5rem;
+        }
+
+        .card__main--impresion{
+            width: auto;
+        }
+    
+    /*      Main - Impresión    */
+        .section__grid{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+            grid-template-areas: 
+            "producto1"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            ;
+            gap: 1.0rem;
+        }
+    
+        .grid__product{
+            width: 50px;
+        }
+    
+    /*      Main - Nosotros    */
+        .nosotros__texto{
+            flex-direction: column;
+        }
+
+        .nosotros__img{
+            width: 400px;
+        }
+    
+    /*      Main - Nosotros    */
+        .contacto{
+            flex-direction: column;
+            width: 480px;
+        }
+
+        .section__contacto--map,
+        .section__formulario_card{
+            width: 400px;
+        }
+
+    }

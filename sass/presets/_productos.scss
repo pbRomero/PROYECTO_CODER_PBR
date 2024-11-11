@@ -1,0 +1,60 @@
+/*      MAIN GRID - PAGE PRODUCTOS       */
+
+.productos{
+    display: flex;
+    flex-direction: column;
+}
+
+.section__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "img1        img2       img3"
+    "img4        img5       img6"
+    ;
+    gap: 1.3rem;
+}
+
+.grid__card1{
+    grid-area: img1;
+}
+
+.grid__card2{
+    grid-area: img2;
+}
+
+.grid__card3{
+    grid-area: img3;
+}
+
+.grid__card4{
+    grid-area: img4;
+}
+
+.grid__card5{
+    grid-area: img5;
+}
+
+.grid__card6{
+    grid-area: img6;
+}
+
+.card-img-top{
+    height: 20rem;
+    background-color: white;
+}
+
+.card-body{
+    background-color: #162f737a;
+}
+
+.card-title,
+.card-text{
+    background-color: transparent;
+}
+
+.grid__product:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.3s;
+}

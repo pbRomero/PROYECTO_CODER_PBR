@@ -1,0 +1,15 @@
+#main{
+    padding-top: 6rem;
+    margin-bottom: 2rem;
+    min-height: 100vh;
+    z-index: 10;
+}
+
+/* Dejo estilado los párrafos para mejorar un poco la visualazación del resto de páginas, eventualmente lo quitaré*/
+
+p{
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif, verdana;
+}

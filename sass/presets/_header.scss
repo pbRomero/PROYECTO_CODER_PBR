@@ -1,0 +1,12 @@
+/*              HEADER         */
+
+.navbar-brand{
+    width: 5rem;
+    height: 3rem;
+}
+
+.nav-item:hover{
+    transform: scale(1.1, 1.1);
+    font-weight: bold;
+    transition: 0.5s;
+}
