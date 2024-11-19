@@ -49,18 +49,28 @@
 
 .nav-item:hover {
   transform: scale(1.1, 1.1);
-  font-weight: bold;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .nav-link {
-  background-color: rgba(255, 107, 53, 0.5333333333);
+  background-color: #FF6B35;
+  color: white;
   border-radius: 10px;
   padding: 2px 4px;
 }
 
+.nav-link:hover {
+  color: white;
+}
+
 .navbar-nav {
   gap: 1rem;
+}
+
+.nav__item--activo {
+  background-color: #1E3A8A;
+  color: white;
+  font-weight: bold;
 }
 
 /*      MAIN - PAGE CONTACTO       */
@@ -97,6 +107,7 @@
 
 .formulario__subtitulo {
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 input, textarea {
@@ -122,6 +133,11 @@ label {
 
 .btn__enviar {
   max-width: 10rem;
+}
+
+.btn__enviar:hover {
+  background-color: #1E3A8A;
+  color: white;
 }
 
 .section__formulario,

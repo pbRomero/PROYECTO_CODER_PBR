@@ -7,16 +7,26 @@
 
 .nav-item:hover{
     transform: scale(1.1, 1.1);
-    font-weight: bold;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .nav-link{
-    background-color: #ff6b3588;
+    background-color: #FF6B35;
+    color: white;
     border-radius: 10px;
     padding: 2px 4px;
 }
 
+.nav-link:hover{
+    color: white;
+}
+
 .navbar-nav{
     gap: 1rem;
+}
+
+.nav__item--activo{
+    background-color: #1E3A8A;
+    color: white;
+    font-weight: bold;
 }
