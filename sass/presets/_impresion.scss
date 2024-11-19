@@ -9,7 +9,7 @@
 .card__main{
     margin: 2rem 1rem;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     gap: 1rem;
 }
 
@@ -23,14 +23,19 @@
     font-size: 1rem;
     line-height: 1.5;
     font-family: sans-serif, verdana;
-    border-left: 3px solid black;
+    border-radius: 10px;
 }
 
+.card--offset{
+    background-color: #2a9d9039;
+}
 
 .img__offset, 
 .img_digital{
     width: 20rem;
     height: 12rem;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 .contenedor__superior{
@@ -39,15 +44,18 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 1rem;
+    background-color: transparent;
 }
 
 .contenedor__superior > h2{
     padding-left: 3rem;
     font-size: 3.5rem;
+    background-color: transparent;
 }
 
 .subtitulo__impresion{
     padding: 10px 0;
+    background-color: transparent;
 }
 
 .impresión__conclusión{
@@ -55,4 +63,21 @@
     font-size: 2rem;
     line-height: 1.5;
     font-family: sans-serif, verdana;
+    background-color: transparent;
+}
+
+.card__main--impresion p,
+.impresion__ul--offset,
+.impresion__ul--offset li{
+    background-color: transparent;
+}
+
+.card--digital{
+    background-color: #55555539;
+}
+
+.card__main--impresion p,
+.impresion__ul--digital,
+.impresion__ul--digital li{
+    background-color: transparent;
 }

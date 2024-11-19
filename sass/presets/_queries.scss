@@ -25,6 +25,10 @@
     
     /*      Main - Inicio    */
     
+        .main__recursos{
+            flex-direction: column;
+        }
+    
         .items__img{
             margin-right: 10px;
             width: auto;
@@ -102,13 +106,15 @@
 
         .contacto{
             flex-direction: column;
-            width: 700px;
+            justify-content: center;
+            align-items: center;
+            width: 768px;
         }
     }
 
     /*********************           SMALL         *********************/
     
-    @media screen and (max-width:576px) {
+    @media screen and (max-width: 576px) {
     
     /*      Principales    */
         #body{
@@ -131,8 +137,12 @@
     
     /*      Main - Inicio    */
     
+        .main__recursos{
+            flex-direction: column;
+        }
+
         .items__img{
-            margin-right: 10px;
+            margin-right: 0;
         }
 
         .items__video{
@@ -212,7 +222,9 @@
     /*      Main - Nosotros    */
         .contacto{
             flex-direction: column;
-            width: 480px;
+            justify-items: start;
+            align-items: start;
+            width: 576px;
         }
 
         .section__contacto--map,
